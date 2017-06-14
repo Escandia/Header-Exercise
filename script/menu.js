@@ -1,12 +1,13 @@
 var openMenu = document.querySelector("#hamburgerIcon");
 
 function showMenu(){
-  var listMenu = document.querySelector("#mobilelDisplay");
-  if (listMenu.classList.contains('hidden')) {
-    listMenu.classList.remove('hidden');
+  console.log('Show menu');
+  var listMenu = document.querySelector("#mobileDisplay");
+  if (listMenu.classList.contains('show')) {
+    listMenu.classList.remove('show');
   } else {
-    listMenu.classList.add('hidden');
+    listMenu.classList.add('show');
   }
 }
 
-openMenu.addEventListener('onClick', showMenu);
+openMenu.addEventListener('click', showMenu);

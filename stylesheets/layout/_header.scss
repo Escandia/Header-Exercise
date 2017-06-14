@@ -28,7 +28,7 @@ nav {
 .navDesktopDisplay {
   display: none; }
 
-.navMobilelDisplay{
+.navMobileDisplay{
   display: none;
   width: $width-total;
   flex-direction: column;
@@ -37,6 +37,9 @@ nav {
   background-color: $bcg-color-opacity;
   margin-left: 0px;
   align-items: center;
+}
+.show{
+  display: flex;
 }
 
 .itemsMobile{
