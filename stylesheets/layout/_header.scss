@@ -1,0 +1,58 @@
+/*Part Header---------------------*/
+nav {
+  width: $width-total;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  align-items: center; }
+
+.logo {
+  margin-left: 10px;
+  width: 70px;
+  height: 70px; }
+
+
+.elementsHeroMenu {
+  display: none; }
+
+.hamburger {
+  display: flex;
+}
+.imghamburger{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.navDesktopDisplay {
+  display: none; }
+
+.navMobilelDisplay{
+  display: none;
+  width: $width-total;
+  flex-direction: column;
+  position: absolute;
+  top: 75px;
+  background-color: $bcg-color-opacity;
+  margin-left: 0px;
+  align-items: center;
+}
+
+.itemsMobile{
+margin: 0px;
+font-size: 12px;
+}
+
+@media (min-width: $media-desktop) {
+  .hamburger {
+    display: none;
+  }
+  .navMobilelDisplay{
+    display: none;
+}
+  .navDesktopDisplay{
+  display: flex;
+}
+
+}

@@ -1,0 +1,19 @@
+/*Part Hero---------------------*/
+.heroImage {
+  background-image: url("../img/max.jpg");
+  background-size: cover;
+  width: $width-total;
+  height: 569px;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center; }
+
+.heroText {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  top: 30%;
+  bottom: 30%;
+  transform: -50%, -50%;
+  color: $primary-color;
+  font-size: 40px; }
