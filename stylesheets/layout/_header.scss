@@ -29,7 +29,8 @@ nav {
   display: none; }
 
 .navMobileDisplay{
-  display: none;
+  opacity: 0;
+  transition: opacity 1s;
   width: $width-total;
   flex-direction: column;
   position: absolute;
@@ -37,9 +38,6 @@ nav {
   background-color: $bcg-color-opacity;
   margin-left: 0px;
   align-items: center;
-}
-.show{
-  display: flex;
 }
 
 .itemsMobile{
